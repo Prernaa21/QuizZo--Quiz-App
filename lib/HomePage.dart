@@ -21,14 +21,14 @@ class MyHomePage extends StatelessWidget {
             children: <Widget>[
               Container(
                 margin: EdgeInsets.symmetric(
-                  vertical: 50
+                  vertical: 70
                 ),
                 child: SizedBox(
                   width: 200.0,
                   height: 100.0,
                   child: Shimmer.fromColors(
                     baseColor: Colors.white,
-                    highlightColor: Colors.greenAccent,
+                    highlightColor: Colors.grey,
                     child: Text(
                       'QuizZo',
                       textAlign: TextAlign.center,

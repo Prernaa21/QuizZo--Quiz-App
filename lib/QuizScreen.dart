@@ -125,8 +125,8 @@ class _QuizScreenState extends State<QuizScreen> {
                       Image(image: AssetImage(
                           "android/app/src/main/res/drawable/what.gif"
                       ),
-                        height: 70,
-                        width: 70,),
+                        height: 100,
+                        width: 100,),
                       Text(
                         "$elapsedSec S",
                         style: TextStyle(
@@ -143,7 +143,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   child: Text(
                     "Q. ${helper.results[currentQues].question}",
                     style: TextStyle(
-                        fontSize: 35,
+                        fontSize: 20,
                         color: Colors.white
                     ),
                     textAlign: TextAlign.center,
